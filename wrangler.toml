@@ -1,5 +1,7 @@
 name = "sonics-server-control"
+main = "worker.js"
 compatibility_date = "2026-08-16"
 
-# Deploy this static project with Cloudflare Pages. Add Workers/D1 bindings here
-# only when an authenticated Cloudflare account is connected.
+[assets]
+directory = "."
+binding = "ASSETS"
